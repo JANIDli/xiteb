@@ -1,47 +1,98 @@
-/* HeroSection.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .hero-section {
-    background-size: cover;
-    background-position: center;
-    color: rgb(0, 0, 0); /* Assuming white text for visibility */
-    padding: 100px 50px; /* Adjust padding as needed */
-    position: relative;
-    text-align: center; /* Centering the text */
-  }
+  display: flex;
+  justify-content:space-between; /* Aligns content to the right */
+  align-items: center; /* Centers content vertically */
+  color: white;
+  padding: 50px;
+  position: relative;
+  height: 400px; /* Adjust to match the desired height */
+}
+.hero-section::after {
+  content: '';
+  background-image: url('/public/1.jpg'); /* Replace with the correct path to your image */
+  background-size: cover;
+  background-position: center;
+  width: 50%; /* Adjust the width to match the size of the image on the right */
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hero-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
 
-  .hero-content {
-    max-width: 600px; /* Adjust width as needed */
-    margin: 0 auto; /* Centering the content block */
-  }
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-  .hero-title {
-    margin-bottom: 0.5rem;
-    font-size: 2.5rem; /* Adjust font size as needed */
-  }
+.nav-items {
+  /* Style your navigation items here */
+}
 
-  .hero-subtitle {
-    margin-top: 0;
-    font-size: 1.5rem; /* Adjust font size as needed */
-  }
+.hero-content {
+  text-align: left;
+  max-width: 90%;
+  background-color: aliceblue;
+  z-index: 1; 
+  transform: translate(-50%, -50%);
+}
 
-  .hero-description {
-    margin: 1rem 0;
-  }
+.hero-button {
+  background-color: #FFD700; /* Adjust the color to match the button in the image */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: aliceblue;
+}
 
-  .hero-button {
-    background-color: #007bff; /* Example blue color */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 20px;
-  }
 
-  .hero-slide-indicator {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%); 
-    font-size: 1rem; 
-  }
+.sidebar{
+  background-color: aqua;
+  padding: 10px;
+  width: 100%;
+  margin-right: 50%;
+  background-color: white;
+}
+.sidebar h1{
+  font-size: 50px;
+  color: black;
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+  
+
+}
+.sidebar h3{
+  color: black;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+.sidebar p{
+  color: black;
+}
+
+
+.sidebar h3,
+.sidebar h1,
+.sidebar h2 {
+  margin-top: 0; 
+  margin-bottom: 0.5rem; 
+  color: black;
+  
+}
+.sidebar h2{
+  color:#FFD700;
+  margin: 0;
+  font-size: 40px;
+
+}

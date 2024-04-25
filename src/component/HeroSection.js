@@ -1,20 +1,22 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import './HeroSection.css'; 
 
 export class HeroSection extends Component {
   render() {
     return (
-        <section className="hero-section">
-        <div className="hero-content">
-          <h1 className="hero-title">LOGISTIC</h1>
-          <h2 className="hero-subtitle">Best Shipping Partner</h2>
-          <p className="hero-description">Amet, tempus gestas facilisis vulputat viverra metus molestie lobortis posuere maecenas. molestie lobortis posuere maecenas. Egestas sapien, gravida neque.</p>
-          <button className="hero-button">DISCOVER MORE</button>
+      <section className="hero-section">
+        <div className="sidebar">
+          <h3>L O G I S T I C</h3>
+          <h1>Best Shipping </h1>
+          <h2>Partner</h2>
+          <br />
+          <p>Your company needs a reliable partner for managing large shipments whether they are local or international? We are here to help you transport goods quickly and safely.</p>
+          <br />
+          <button className='hero-button'>DISCOVER MORE</button>
         </div>
-        <div className="hero-slide-indicator">2 / 2</div>
       </section>
-    )
+    );
   }
 }
 
-export default HeroSection
+export default HeroSection;
