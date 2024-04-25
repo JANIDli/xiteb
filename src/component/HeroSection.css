@@ -1,0 +1,47 @@
+/* HeroSection.css */
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0); /* Assuming white text for visibility */
+    padding: 100px 50px; /* Adjust padding as needed */
+    position: relative;
+    text-align: center; /* Centering the text */
+  }
+
+  .hero-content {
+    max-width: 600px; /* Adjust width as needed */
+    margin: 0 auto; /* Centering the content block */
+  }
+
+  .hero-title {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem; /* Adjust font size as needed */
+  }
+
+  .hero-subtitle {
+    margin-top: 0;
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+
+  .hero-description {
+    margin: 1rem 0;
+  }
+
+  .hero-button {
+    background-color: #007bff; /* Example blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .hero-slide-indicator {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 1rem; 
+  }

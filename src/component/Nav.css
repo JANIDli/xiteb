@@ -1,0 +1,53 @@
+/* Nav.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Dark background for the navbar */
+    padding: 0.5rem 1rem;
+    margin-left: 30px;
+    margin-right: 30px;
+
+  }
+  
+  .logo {
+    color: #000000; /* White color for the logo text */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: #fff; /* White color for nav links */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+  }
+  
+  .nav-actions {
+    display: flex;
+  }
+  
+  .quote-btn, .sign-in-btn {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border: none;
+    color: #fff; /* White text for buttons */
+    background-color: #F7DC03; /* Bootstrap blue for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .sign-in-btn {
+    background-color: #000000;
+  }
+  .quote-btn:hover, .sign-in-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
