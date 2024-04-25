@@ -2,19 +2,19 @@
 
 .hero-section {
   display: flex;
-  justify-content:space-between; /* Aligns content to the right */
-  align-items: center; /* Centers content vertically */
+  justify-content:space-between; 
+  align-items: center; 
   color: white;
   padding: 50px;
   position: relative;
-  height: 400px; /* Adjust to match the desired height */
+  height: 400px;
 }
 .hero-section::after {
   content: '';
-  background-image: url('/public/1.jpg'); /* Replace with the correct path to your image */
+  background-image: url('/public/1.jpg'); 
   background-size: cover;
   background-position: center;
-  width: 50%; /* Adjust the width to match the size of the image on the right */
+  width: 50%; 
   height: 100%;
   position: absolute;
   top: 0;
@@ -33,7 +33,6 @@
 }
 
 .nav-items {
-  /* Style your navigation items here */
 }
 
 .hero-content {
@@ -45,7 +44,7 @@
 }
 
 .hero-button {
-  background-color: #FFD700; /* Adjust the color to match the button in the image */
+  background-color: #FFD700; 
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -93,6 +92,8 @@
 .sidebar h2{
   color:#FFD700;
   margin: 0;
-  font-size: 40px;
+  font-size: 50px;
+  font-family: Impact;
+  font-weight: normal;
 
 }

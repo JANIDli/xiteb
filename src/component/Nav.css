@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff; /* Dark background for the navbar */
+    background-color: #ffffff; 
     padding: 0.5rem 1rem;
     margin-left: 30px;
     margin-right: 30px;
@@ -12,7 +12,7 @@
   }
   
   .logo {
-    color: #000000; /* White color for the logo text */
+    color: #000000; 
     font-size:30px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
@@ -25,14 +25,14 @@
   }
   
   .nav-links a {
-    color: #fff; /* White color for nav links */
+    color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
   }
   
   .nav-links a:hover {
-    background-color: #555; /* Slightly lighter background on hover */
+    background-color: #555; 
   }
   
   .nav-actions {
@@ -43,8 +43,8 @@
     padding: 0.5rem 1rem;
     margin-left: 0.5rem;
     border: none;
-    color: #fff; /* White text for buttons */
-    background-color: #F7DC03; /* Bootstrap blue for buttons */
+    color: #fff; 
+    background-color: #F7DC03;
     cursor: pointer;
     transition: background-color 0.3s;
   }
@@ -52,6 +52,6 @@
     background-color: #000000;
   }
   .quote-btn:hover, .sign-in-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
   }
   

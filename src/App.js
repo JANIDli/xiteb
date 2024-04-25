@@ -1,10 +1,8 @@
-import HeroSection from "./component/HeroSection";
-import Nav from "./component/Nav"
+import HederSlid from "./component/HederSlid";
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <HeroSection/>
+      <HederSlid/>
     </div>
   );
 }
