@@ -1,0 +1,28 @@
+
+.Testimonials-container{
+    display: flex;
+    padding: 150px;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+.truste{
+    width: 50%;
+}
+.trusted h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.iconn{
+    padding: 50px;
+    width: 50%;
+    background-color: blue;
+    margin-left: 30px;
+    background-color: gainsboro;
+}
+
+.what-we{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: blue;
+}
