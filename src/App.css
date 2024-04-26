@@ -41,3 +41,360 @@
     transform: rotate(360deg);
   }
 }
+
+/* reshada ccss
+/* App.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-icon {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-buttons button {
+  padding: 10px 20px;
+  border: none;
+
+  color: #fff;
+  cursor: pointer;
+}
+
+.quote-btn {
+  margin-right: 10px;
+  background-color: #f9bf04;
+}
+
+.sign-in-btn {
+  margin-left: 10px;
+  background-color: #333;
+}
+.nav-item.active::before {
+  content: "";
+  position: absolute;
+  top: 4%; /* Align with the center of the navigation item */
+  right: 50px; /* Adjust the position as needed */
+  width: 5px; /* Width of the line */
+  height: 20px; /* Height of the line */
+  background-color: #f9bf04;
+}
+
+.nav-item.active:first-child::before {
+  left: 210px; /* Adjust the position for the first navigation item */
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  flex: 0 0 50%;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.discover-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.image {
+  flex: 0 0 50%;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*welcome ---------------*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.content1 {
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.image-container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  text-align: center;
+  color: white;
+}
+
+.clients {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.clients-text {
+  font-size: 18px;
+}
+
+.orange-box {
+  position: absolute;
+  top: 50%;
+  left: calc(30%); /* Position it to the right of the image */
+  transform: translateY(-50%);
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.orange-box p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 1px 0;
+  padding: 8px 17px 6px 13px;
+  max-width: 380px;
+  position: relative;
+  border-radius: 1px;
+}
+
+.orange-box p:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.orange-box .clients {
+  color: black;
+  align-self: flex-start;
+  background-color: #e5e5ea;
+}
+
+.orange-box .clients:after {
+  background: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='15.515px' height='17.5px' viewBox='32.484 17.5 15.515 17.5' enable-background='new 32.484 17.5 15.515 17.5'><path fill='#E5E5EA' d='M38.484,17.5c0,8.75,1,13.5-6,17.5C51.484,35,52.484,17.5,38.484,17.5z'/></svg>")
+    left bottom no-repeat;
+  left: -6px;
+}
+/*-----logo-----*/
+.client-logos-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-item {
+  margin: 0 20px;
+}
+
+.logo-item img {
+  width: 120px; /* Adjust the size of the logos as needed */
+  height: auto;
+}
+
+
+/*-----footer-----*/
+.footer {
+  background-color: #5d6c83; /* Retained the original background color */
+  color: #fff;
+  padding: 40px 0;
+  text-align: center; /* Added text-align center */
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-heading {
+  font-size: 18px;
+}
+
+.contact-list, .news-list, .customer-service-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li, .news-list li, .customer-service-list li {
+  margin-bottom: 10px;
+  color: #bdb9b9;
+}
+
+.social-media-icons {
+  font-size: 24px;
+}
+
+.customer-service {
+  padding: 20px;
+}
+
+.customer-service-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.image-item {
+  overflow: hidden;
+  border-radius: 1px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image-item:hover img {
+  transform: scale(1.1);
+}
+
+
+.copyright {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons i {
+  margin: 0 5px;
+  font-size: 20px;
+}
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.newsletter-input {
+  width: 200px; /* Adjust input width as needed */
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter-button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
