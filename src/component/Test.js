@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Test extends Component {
   render() {
     return (
-        <div className="bg-white text-gray-800 p-6">
+        <div className="bg-white text-gray-800 p-6 mx-10">
         <h2 className="text-2xl font-bold mb-4 text-center" >Best Global Logistics Solutions.</h2>
         <div className="flex justify-between space-x-4">
           {/* Card 1 */}
@@ -18,7 +18,7 @@ export class Test extends Component {
 
           {/* Card 2 */}
           <div className="card bg-gray-100 text-gray-800 p-3 rounded-lg shadow-lg flex-1">
-            <img src="/2.jpg" alt="Drone Services" className="rounded-t-lg mb-3 h-32 object-cover" />
+            <img src="/1.jpg" alt="Drone Services" className="rounded-t-lg mb-3 h-32 object-cover" />
             <div className="p-3">
               <h3 className="text-lg font-semibold mb-2">Drone Services</h3>
               <p className="mb-3">These are unique and often they differ from one industry to the other. Our logistics aerospace expertise...</p>
