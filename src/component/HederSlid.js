@@ -7,6 +7,8 @@ export class HederSlid extends Component {
     return (
       <div>
         <Nav/>
+        <br />
+        <br />
         <HeroSection/>
       </div>
     )

@@ -1,0 +1,103 @@
+.footer-container {
+    background-color: #5d6c83;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+  }
+  
+  .footer-column-container {
+    margin: 20px;
+    flex-basis: 20%;
+    min-width: 200px;
+  }
+  
+  .footer-heading-text {
+    font-size: 18px;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-list-item {
+    margin-bottom: 10px;
+    color: #bdb9b9;
+  }
+  
+  .customer-service-container {
+    padding: 20px;
+    flex-basis: 25%;
+  }
+  
+  .customer-service-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .image-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .image-item-container {
+    overflow: hidden;
+    border-radius: 1px;
+  }
+  
+  
+  .image-item-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-item-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  .newsletter-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-input-field {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .newsletter-button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copyright-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icon {
+    margin: 0 5px;
+    font-size: 20px;
+  }

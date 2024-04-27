@@ -6,7 +6,17 @@ export class Nav extends Component {
     return (
       <div>
           <nav className="navbar">
-        <div className="logo">Cargo </div>
+        
+            <div className="logo">Cargo </div>
+            <blockquote className='n-blockquote'>
+            <div className="nav-links">
+                <a href="http://">HOME</a>
+                <a href="http://">PAGES</a>
+                <a href="http://">TRACKING</a>
+                <a href="http://">SERVICES</a>
+                <a href="http://">BLOG</a>
+            </div>
+            </blockquote>
         {/* <div className="nav-links">
           <NavLink to="/" exact>HOME</NavLink>
           <NavLink to="/pages">PAGES</NavLink>

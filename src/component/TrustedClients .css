@@ -1,28 +1,102 @@
+.Trust-container {
+max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
-.Testimonials-container{
-    display: flex;
-    padding: 150px;
-    background-color: aquamarine;
-    justify-content: space-between;
-}
-.truste{
-    width: 50%;
-}
-.trusted h1{
-    font-size: 30px;
+
+.section {
+    width: 45%;
+  }
+  
+ .section h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
     font-weight: bold;
-}
+    font-size: 20px;
+    text-align: start;
+   
 
-.iconn{
-    padding: 50px;
-    width: 50%;
-    background-color: blue;
-    margin-left: 30px;
-    background-color: gainsboro;
-}
+  }
+  .p{
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: start;
+   
+  }
 
-.what-we{
-    font-size: 30px;
+  
+  blockquote {
+    padding-left: 20px;
+    border-left: 5px solid red;
+    margin: 20px 0;
+  }
+  
+ 
+  
+  blockquote footer {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 10px;
+    text-align: start;
+  }
+  
+  ul li:before {
+  
+    color: red;
     font-weight: bold;
-    background-color: blue;
-}
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  footer{
+    font-weight: bold;
+
+  }
+  .fp{
+    font-size: 8px;
+    font-weight: normal;
+    
+  }
+
+  .btn1{
+    background-color: black;
+    color: aliceblue;
+    margin-left: px;
+   
+  }
+  
+  .btn1{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 15px;
+   
+  }
+  
+  .btn2{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 123px;
+   
+  }
+  
+  .btn3{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 5px;
+   
+  }
+  
+
+  .btn4{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 20px;
+   
+  }

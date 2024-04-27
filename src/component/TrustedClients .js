@@ -5,22 +5,40 @@ import './TrustedClients .css';
 export class TrustedClients  extends Component {
   render() {
     return (
-      <div className="Testimonials-container">
-        <div className="trusted">
-            <h1>TRUSTED CLIENT</h1>
-            <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
-            <br />
-        
-            <div className="iconn">
-                <p>Integer congue elit non semper laoreet sed lectus orci posuere nisl tempor se felis ac mauris. 
-                    Pellentesque iny urna. Integer vitae felis vel magna posu eu vestibulum. Nam rutrum congue diam.
-                     Aliquam malesuada mauris etug met Curabitur laoreet convallis nislal pellentesque bibendum.</p>
-            </div>
-        </div>
-        <div className="what-we">
-            <h1>WHY CHOOSE US</h1>
-        </div>
+      <div className="Trust-container ">
+      <div className="section">
+        <h1>TRUSTED CLIENTS</h1>
+        <blockquote>
+          <p className='p'>"L r e m  i p s u m  d o l o r  s i t  a m e t  c o n s e c t e t u r"</p>
+          <br />
+        <br />
+          <img src="Trust.png" alt="" />
+          <footer>
+            — John Doe,
+            <p className='fp'>  Managing Director</p>
+          </footer>
+        </blockquote>
       </div>
+      <div className="section">
+        <h1>WHY CHOOSE US</h1>
+        <p className='p'>"L r e m  i p s u m  d o l o r  s i t  a m e t  c o n s e c t e t u r"</p>
+        <br />
+        <br />
+        <ul>
+          <hr />
+          <li>Duis ac hendrerit elementum quam ipsum accumsan <button className='btn1'>+</button> </li>
+          <br />
+          <hr />
+          <li>Maecenas magna et lobortis volutpat <button className='btn2'>+</button></li>
+          <br />
+          <hr />
+          <li>Sed est nibh ornare lorem varius faucibus suspendisse <button className='btn3'>+</button> </li>
+          <br />
+          <hr />
+          <li>Nulla scelerisque dui hendrerit elementum quamico <button className='btn4'>+</button></li>
+        </ul>
+      </div>
+    </div>
     )
   }
 }

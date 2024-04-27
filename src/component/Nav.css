@@ -22,13 +22,16 @@
   
   .nav-links {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .nav-links a {
-    color: #fff;
+    color: #1b1818;
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
+    
   }
   
   .nav-links a:hover {
@@ -53,5 +56,11 @@
   }
   .quote-btn:hover, .sign-in-btn:hover {
     background-color: #0056b3; 
+  }
+  .n-blockquote
+  {
+    padding-left: 0px;
+    margin:  0px;
+    border-left: 5px solid #F7DC03;
   }
   
