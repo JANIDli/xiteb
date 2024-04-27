@@ -1,226 +1,103 @@
-/* Newsletter.css */
-.newsletter {
-    font-family: Arial, sans-serif;
-  }
-  
-  .newsletter-header {
-    background-color: orange;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .subscription-form {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  .subscription-form input {
-    margin-right: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .subscription-form button {
-    padding: 10px 20px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .content {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-  }
-  
-  .column {
-    width: 30%;
-  }
-  
-  .newsletter-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f0f0f0;
-  }
-  
- .footer {
-  background-color: #5d6c83; /* Retained the original background color */
-  color: #fff;
-  padding: 40px 0;
-  text-align: center; /* Added text-align center */
-}
-
 .footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.footer-column {
-  flex: 1;
-  margin: 20px;
-}
-
-.footer-heading {
-  font-size: 18px;
-}
-
-.contact-list, .news-list, .customer-service-list {
-  list-style: none;
-  padding: 0;
-}
-
-.contact-list li, .news-list li, .customer-service-list li {
-  margin-bottom: 10px;
-  color: #bdb9b9;
-}
-
-.social-media-icons {
-  font-size: 24px;
-}
-
-.customer-service {
-  padding: 20px;
-}
-
-.customer-service-heading {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.image-item {
-  overflow: hidden;
-  border-radius: 1px;
-}
-
-.image-item img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.image-item:hover img {
-  transform: scale(1.1);
-}
-
-
-.copyright {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  margin-bottom: 10px;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icons i {
-  margin: 0 5px;
-  font-size: 20px;
-}
-.newsletter-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px; /* Adjust as needed */
-}
-
-.newsletter-input {
-  width: 200px; /* Adjust input width as needed */
-  padding: 10px;
-  margin-right: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.newsletter-button {
-  padding: 10px 20px;
-  background-color: orange;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
-.newsletter {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-  }
-  
-  .newsletter-header {
-    background-color: #ff8c00;
-    padding: 20px;
-    text-align: center;
-    color: white;
-  }
-  
-  .subscription-form {
+    background-color: #5d6c83;
+    color: #fff;
+    padding: 40px 0;
     display: flex;
-    justify-content: center;
-    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
   }
   
-  .subscription-form input {
-    margin-right: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  .footer-column-container {
+    margin: 20px;
+    flex-basis: 20%;
+    min-width: 200px;
   }
   
-  .subscription-form button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  .footer-heading-text {
+    font-size: 18px;
   }
   
-  .content {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .column {
-    width: 30%;
-    padding: 20px;
-  }
-  
-  .latest-news p, .about-us p {
-    margin-bottom: 5px;
-  }
-  
-  .customer-service ul {
+  .footer-list {
     list-style: none;
     padding: 0;
   }
-  
-  .customer-service li {
-    margin-bottom: 5px;
+  .footer-list-item {
+    margin-bottom: 10px;
+    color: #bdb9b9;
   }
   
-  .newsletter-footer {
-    text-align: center;
+  .customer-service-container {
     padding: 20px;
-    background-color: #ff8c00;
-    color: white;
+    flex-basis: 25%;
+  }
+  
+  .customer-service-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .image-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .image-item-container {
+    overflow: hidden;
+    border-radius: 1px;
   }
   
   
+  .image-item-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-item-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  .newsletter-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-input-field {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .newsletter-button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copyright-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icon {
+    margin: 0 5px;
+    font-size: 20px;
+  }

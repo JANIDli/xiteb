@@ -4,9 +4,8 @@ import StatsBanner from "./component/StatsBanner";
 import TrustedClients from "./component/TrustedClients ";
 import Welcome from "./component/Welcome";
 import ClientLogojs from "./component/ClientLogo.js";
-import Footer from "./component/Footer";
 import PostCard from "./component/LatesNews";
-import Janth from "./component/Janth";
+import Janth from "./component/Footer";
 function App() {
   return (
     <div className="App">
